@@ -9403,7 +9403,7 @@ header, section {
 
 ********************************/
 .blog {
-	margin-top: 150px;
+	margin-top: 200px;
 }
 
 .blog-slider {
@@ -9637,7 +9637,7 @@ header, section {
 	font-size: 40px;
 }
 
-.post-wrap {
+.post-wrap-new {
 	margin-left: 20px;
 	padding-right: 20px;
 }
@@ -9654,12 +9654,64 @@ header, section {
 	color: #000;
 }
 
+.post-content__paragraph span{
+	font-weight: 800;
+}
+
+
+.bullet-points ul { 
+	margin: 0px 0px 0px 30px; 
+	padding: 0px 10px 10px 10px;
+	list-style-type: square;
+}
+
+
+.bullet-points li {
+	margin: 10px 0;
+	font-weight: 300;
+	line-height: 1.4;
+	font-size: 17px;
+	color: #000;
+}
+
+
+
+.bullet-points-secondary ul { 
+	margin: 0px 0px 0px 30px; 
+	padding: 0;
+	list-style-type: circle;
+}
+
+
+.bullet-points-secondary li {
+	margin: 10px 0;
+	font-weight: 300;
+	line-height: 1.4;
+	font-size: 17px;
+	color: #000;
+}
+
+
+.post-content__paragraph ul{
+	margin: 10px 0;
+}
+
+
+.post-content__paragraph li{
+	margin: 10px 0;
+	font-weight: 300;
+	line-height: 1.4;
+	font-size: 17px;
+	color: #000;
+}
+
 
 .post-content__subhead {
 	margin: 10px 0;
 	font-weight: 600;
 	line-height: 1.4;
-	font-size: 20px;
+	font-size: 24px;
+	color: #000;
 }
 
 .post-content__paragraph:last-of-type {
